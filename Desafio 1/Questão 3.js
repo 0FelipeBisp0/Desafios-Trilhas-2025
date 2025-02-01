@@ -2,4 +2,4 @@
 let preco = 50;
 let desconto = 0.2;
 let precoFinal = preco * (1 - desconto);
-console.log(`Valor com desconto é ${precoFinal}`);
+console.log(`Valor com desconto é R$ ${precoFinal.toFixed(2)}`);
