@@ -2,9 +2,9 @@
 let numero;
 
 while (true) { 
-    numero = prompt("Numero Secreto. Digite um número:"); 
+    numero = Number(prompt("Numero Secreto. Digite um número:")); 
 
-    if (numero == 5) { 
+    if (numero === 5) { 
         console.log("Você digitou 5. Acertou!!");
         break;
     } else {
