@@ -1,6 +1,10 @@
 /* Comente seu código explicando o que cada parte faz. Crie um programa simples que calcule a soma de dois números e imprima o resultado. */
 
-let num1 = Number(prompt("Digite um número:")); //Declara a variável num1 como o valor que o usuário digitou
-let num2 = Number(prompt("Digite outro número:")); //Declara a variável num2 como o valor que o usuário digitou
+// Solicita que o usuario digite o primeiro número e armazenar em num1
+let num1 = Number(prompt("Digite um número: ")); 
 
-console.log(num1 + num2); //Soma num1 e num2 e imprime o resultado no console
+// Solicita que o usuario digite o segundo número e armazenar em num2
+let num2 = Number(prompt("Digite outro número: ")); 
+
+// Soma num1 e num2 e imprime o resultado no console
+console.log("O resultado é igual a: " + (num1 + num2)); 
