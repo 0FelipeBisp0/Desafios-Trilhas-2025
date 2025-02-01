@@ -5,8 +5,9 @@ let nota = Number(prompt("Digite a nota:"));
 
 if (nota >= 7) {
     console.log("Aprovado");
-} else if (nota >= 5) {
+} else if (nota >= 5) {  //ja garante que é entre 5 e6
     console.log("Recuperação");
 } else {
     console.log("Reprovado");
 }
+
